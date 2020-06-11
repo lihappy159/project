@@ -1,0 +1,88 @@
+@import "normalize.css";
+
+html{font-size: 100px}
+body, ul, ol, dl, li, dd, h1, h2, h3, h4, h5, h6, p, input { margin: 0;padding: 0}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; font-family: "Microsoft YaHei"; }
+img { border: none }
+input, button, textarea, select {
+    *font-size: 100%; border: none; }
+body { background: #fff; color: #5e5e5e; font: 14px/24px Microsoft YaHei, SimSun, Arial; }
+ul, ol { list-style: none; padding: 0 }
+table { border-collapse: collapse; border-spacing: 0 }/*默认a标签样式*/
+a:link, a:visited { color: #fff; text-decoration: none; }
+a:hover { /*color:#999;*/ }
+a:hover { color: #c9394a; /*text-decoration: underline;*/ }
+a:active { color: #666; }/*浮动和清除浮动*/
+.fl { float: left }
+.fr { float: right }
+.clear { zoom: 1 }
+.clear:after { content: ""; display: block; height: 0; visibility: visible; clear: both }
+
+
+ .el-form-item__error {
+     position: relative !important;
+     font-size: 0.3rem !important;
+ }
+
+.van-button--info{
+    background-color: #5bc494 !important;
+    border: none !important;
+}
+
+.van-picker{
+    margin-bottom: 0.3rem;
+}
+
+.van-picker__confirm{
+    display: none !important;
+}
+
+.el-date-editor.el-input, .el-date-editor.el-input__inner{
+    width: 100% !important;
+}
+
+.el-select{
+    width: 100% !important;
+}
+
+.el-input__inner{
+    border: none !important;
+    height: 1rem !important;
+    border-radius:0  !important;
+}
+
+.el-form{
+    margin-bottom: 1rem;
+}
+.el-form .el-form-item {
+    margin-bottom:0 ;
+}
+
+
+.el-form .el-icon-date:before {
+    content: none;
+}
+
+
+
+.el-form .el-input--suffix .el-input__inner{
+    padding-left: 0.7rem;
+    border-bottom: 1px solid #DCDFE6 !important;
+    font-size: 0.3rem;
+}
+.el-form-item__error{
+    text-align: center !important;
+}
+
+.van-picker__toolbar{
+    display: none !important;
+}
+.van-picker__columns{
+    margin-bottom: 3rem;
+}
+.van-icon-photo-o::before{
+    content: none !important;
+}
+/*.van-image__error, .van-image__img, .van-image__loading{*/
+    /*width: 0 !important;*/
+/*}*/
